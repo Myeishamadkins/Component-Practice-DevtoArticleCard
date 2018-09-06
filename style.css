@@ -1,0 +1,79 @@
+button {
+    color: white;
+    background-color: blue;
+    border-radius: 8px;
+    padding: 8px;
+    border: 0;
+    font-size: 1.5rem;
+}
+.save {
+    display: inline-block;
+    float: right;
+}
+
+img {
+    border-radius: 50%;
+}
+
+body {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.text,
+.person {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.text {
+    font-size: 1.5em;
+    font-weight: 500;
+    display: inline-block;
+}
+.person {
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    font-weight: 100;
+}
+.git {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.space {
+    display: inline-block;
+    padding-left: 1rem;
+}
+.button-row {
+    width: 100%;
+}
+.number {
+    display: inline-block;
+}
+a {
+    text-decoration: none;
+    color: grey;
+    font-size: 12px;
+}
+.container {
+    float: middle;
+    border: 1px black solid;
+    box-shadow: 5px 5px grey;
+    width: 50%;
+    padding: 2rem;
+}
+.image {
+    display: inline-block;
+}
+img.image {
+    border-radius: 50%;
+    height: 65%;
+    width: 65%;
+}
+.top > div {
+    vertical-align: top;
+}
+.bottom > div {
+    vertical-align: baseline;
+}
